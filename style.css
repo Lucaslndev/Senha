@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #35e24c;
+}
+
+.login-box {
+    width: 290px;
+    height: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: #262626;
+    border: none;
+    border-radius: 10px;
+    padding: 5vh;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.login-box h1 {
+    color: #35e24c;
+    float: left;
+    font-size: 40px;
+    padding: 13px 0;
+    letter-spacing: 2px;
+}
+
+
+.olho {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid white;
+    display: flex;
+    position: relative;
+}
+
+.textbox i {
+    width: 20px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+
+.btn {
+    width: 100%;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    color: #262626;
+    background-color: #35e24c;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 16px 0;
+}
+
+.cadastrar {
+    text-align: center;
+    font-size: 15px;
+}
+
+a {
+    color: #35e24c;
+    text-decoration: none;
+}
